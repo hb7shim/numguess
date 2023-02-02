@@ -5,7 +5,7 @@ answer = randint(1, 100)
 print(answer)
 
 name = input("name?")
-guess = input("guess num : ")
+guess = int(input("guess num : "))
 
 print(f'{name}, {guess}')
 
